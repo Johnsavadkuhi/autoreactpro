@@ -2,7 +2,7 @@
 	"name": "autoreactpro",
 	"displayName": "autoreactpro",
 	"description": "vscode extension for Reactjs projects",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"publisher": "savadkuhipublisher",
 	"engines": {
 		"vscode": "^1.44.0"
