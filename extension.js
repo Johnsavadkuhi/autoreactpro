@@ -13,8 +13,6 @@ const path = require('path');
 function activate(context) {
 
 	const log = console.log.bind(console);
-
-	log(vscode.workspace.rootPath + '/src') ; 
 	
 	const watcher = chokidar.watch(vscode.workspace.rootPath + '/src', {
 		ignored: /index.js/,
