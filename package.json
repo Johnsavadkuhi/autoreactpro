@@ -2,7 +2,7 @@
 	"name": "autoreactpro",
 	"displayName": "autoreactpro",
 	"description": "vscode extension for Reactjs projects",
-	"version": "0.2.3",
+	"version": "0.2.2",
 	"publisher": "savadkuhipublisher",
 	"engines": {
 		"vscode": "^1.44.0"
@@ -35,7 +35,6 @@
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.11.0",
 		"@types/vscode": "^1.44.0",
-		"autoreactpro": "^1.0.5",
 		"eslint": "^6.8.0",
 		"glob": "^7.1.6",
 		"mocha": "^7.1.1",
