@@ -5,8 +5,6 @@ const chokidar = require('chokidar');
 const fs = require('fs');
 const path = require('path');
 
-// this method is called when your extension is activated
-// your extension is activated the very first time the command is executed
 
 /**
  * @param {vscode.ExtensionContext} context
@@ -14,9 +12,6 @@ const path = require('path');
 
 function activate(context) {
 
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "helloworld" is now active!');
 	const log = console.log.bind(console);
 
 	log(vscode.workspace.rootPath + '/src') ; 
@@ -27,7 +22,7 @@ function activate(context) {
 		ignoreInitial: true,
 	
 	  });
-	  watcher.on('add', (p, event) => {
+	  watcher.on('add', (p) => {
 
 		if (path.parse(p).name[0] !== path.parse(p).name[0].toUpperCase()) {
 		  log("need to be rename : ", p);
