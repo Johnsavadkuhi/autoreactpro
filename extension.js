@@ -51,7 +51,7 @@ function activate(context) {
 
 	let disposable = vscode.commands.registerCommand('autoreactpro.autoreactpro', function () {
 
-		vscode.window.showWarningMessage('autoreactpro extension activated.');
+		vscode.window.showInformationMessage('autoreactpro extension activated.');
 	});
 
 	context.subscriptions.push(disposable);
