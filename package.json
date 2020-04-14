@@ -2,7 +2,7 @@
 	"name": "autoreactpro",
 	"displayName": "autoreactpro",
 	"description": "vscode extension for Reactjs projects",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"icon": "image/arp.png",
 	"publisher": "savadkuhipublisher",
 	"engines": {
